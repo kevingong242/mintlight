@@ -1,0 +1,100 @@
+header{
+  text-align: center;
+  font-size: 20px;
+  border-style: solid;
+  background-color: #75AA5D;
+  margin:5px;
+}
+
+p{
+  text-align: center;
+  margin: 5px;
+
+}
+
+.row1{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.row2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.component-container{
+  border-style: solid;
+  border-width: 1px;
+}
+
+ul{
+  padding: 20px;
+}
+
+li, #transactionHeader{
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-gap: 10px;
+  padding: 5px;
+  border: 1px solid;
+}
+
+#itemBtn{
+  text-align: center;
+  margin: 5px;
+  width: 75%;
+}
+
+#deleteTransaction{
+  float: left;
+
+}
+
+#editTransaction{
+  float: right;
+}
+
+#deleteTransaction:hover{
+  background-color: red;
+  color: white;
+}
+
+#editTransaction:hover{
+  background-color: green;
+  color: white;
+}
+
+#categoryDisplay, #priceDisplay{
+  font-weight: bold;
+}
+
+.BarContent{
+  position:relative;
+  max-width: 600px;
+  height: 300px;
+  background: #ddd;
+}
+
+.line{
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: rgba(5,5,5,0.2);
+
+}
+
+.graph{
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.bar-text-content{
+  background: yellow;
+  height: 100%;
+  width: 100%;
+}
