@@ -6,10 +6,10 @@ class Bills extends React.Component{
       <div className="component-container">
         <header>Immediate Bills</header>
         <ul>
-          <li>Rent</li>
-          <li>Internet</li>
-          <li>Gym membership</li>
-          <li>Insurance</li>
+          <li className="bills">Rent</li>
+          <li className="bills">Internet</li>
+          <li className="bills">Gym membership</li>
+          <li className="bills">Insurance</li>
         </ul>
       </div>
     );
