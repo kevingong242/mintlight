@@ -4,12 +4,24 @@ class Bills extends React.Component{
   render(){
     return(
       <div className="component-container">
-        <header>Immediate Bills</header>
+        <header>Frequent Bills</header>
         <ul>
-          <li className="bills">Rent</li>
-          <li className="bills">Internet</li>
-          <li className="bills">Gym membership</li>
-          <li className="bills">Insurance</li>
+          <li className="bills">
+            Rent
+              <button>Add</button>
+          </li>
+          <li className="bills">
+            Internet
+              <button>Add</button>
+          </li>
+          <li className="bills">
+            Gym membership
+              <button>Add</button>
+          </li>
+          <li className="bills">
+            Insurance
+              <button>Add</button>
+          </li>
         </ul>
       </div>
     );
